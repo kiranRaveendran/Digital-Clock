@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-image: url(darkBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+#clock {
+height: 2em;
+/* width:5em; */
+  font-weight: bold;
+  background-image: url(darkBG.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+  
+}
+p{
+    font-size: 4em;
+    border-radius: 1em;
+}
+.child1,.child2,.child3{
+    padding: 5px;
+    background-image: url(darkBG.jpg);
+    background-size: cover;
+    width: 10em;
+    border:2px solid #ffffff;
+    border-radius: 1em
+
+}
